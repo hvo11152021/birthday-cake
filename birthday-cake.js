@@ -19,7 +19,7 @@ function appendName(message) {
 	let messageBox = document.getElementById("message_container");
 	if (messageBox == null) return;
 
-	messageBox.innerHTML = `Happy Birthday ${message != null ? message : "mommy!"}`;
+	messageBox.innerHTML = `Happy Birthday ${message != null ? message : "53rd mommy!"}`;
 }
 
 function appendCandles(candlesCount) {
